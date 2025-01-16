@@ -1,40 +1,88 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página en Construcción</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-            padding: 50px;
-        }
-        .container {
-            margin-top: 100px;
-        }
-        h1 {
-            font-size: 2.5em;
-            color: #ff6347;
-        }
-        p {
-            font-size: 1.2em;
-            color: #555;
-        }
-        .icono {
-            font-size: 5em;
-            color: #ff6347;
-            margin-bottom: 20px;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TITULO -->
+    <title>Gonzalo M. Martinez | Web personal</title>
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Russo+One&display=swap" rel="stylesheet">
+
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="style_homepage.css" />
 </head>
+
 <body>
-    <div class="container">
-        <div class="icono">🚧</div>
-        <h1>Página en Construcción</h1>
-        <p>Estamos trabajando para traerte algo increíble. ¡Vuelve pronto!</p>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#s-one" class="nav-link">Section 1</a></li>
+            <li><a href="#s-two" class="nav-link">Section 2</a></li>
+            <li><a href="#s-three" class="nav-link">Section 3</a></li>
+            <li><a href="#s-four" class="nav-link">Section 4</a></li>
+            <li><a href="#s-five" class="nav-link">Section 5</a></li>
+        </ul>
+    </nav>
+
+    <!-- Botones laterales -->
+    <div class="scroll-control">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
     </div>
+
+    <!-- Secciones -->
+    <section id="s-one" class="scroll s-one" data-section-name="s-one">
+        <div class="content">
+            <div class="bigText">
+                <p>
+                    Hey,
+                </p>
+                <p>
+                    me llamo <span class="nameText">Gonzalo</span>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="s-two" class="scroll s-two" data-section-name="s-two">
+        <div class="content">
+            <h1>Section Two</h1>
+            <p>Content for section two...</p>
+        </div>
+    </section>
+
+    <section id="s-three" class="scroll s-three" data-section-name="s-three">
+        <div class="content">
+            <h1>Section Three</h1>
+            <p>Content for section three...</p>
+        </div>
+    </section>
+
+    <section id="s-four" class="scroll s-four" data-section-name="s-four">
+        <div class="content">
+            <h1>Section Four</h1>
+            <p>Content for section four...</p>
+        </div>
+    </section>
+
+    <section id="s-five" class="scroll s-five" data-section-name="s-five">
+        <div class="content">
+        <h1>Section Five</h1>
+        <p>Content for section five...</p>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+    <script src="script_homepage.js"></script>
 </body>
 </html>
