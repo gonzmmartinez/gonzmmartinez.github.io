@@ -9,7 +9,7 @@ name: Your Name
 description: Este blog se discute la ciencia y la estadística como actividad social desde los ojos miopes de alguien formado en ciencia. ¿Qué es la ciencia? ¿Qué es la estadística? ¿Qué son los datos? ¿Existe un único método científico? ¿El método hace la ciencia o la ciencia se arma a partir de una suerte de prueba y error con los métodos? ¿La rigurosidad aporta objetividad en la ciencia? ¿Existe tal objetividad? ¿Hacer ciencia está al mismo nivel que la ciencia misma? Bueno, no sé, ni idea, no voy a responder ninguna de esas preguntas, pero al menos voy a tratar de hablar sobre temas adyacentes a esos, y tratando de cuestionar algunas cosas con humor, sarcasmo, ironía, y un poquito de crítica social. Muchas de las cosas que digo son fuente arial 12 pero otras sí tienen fundamentos, creeme. Gracias de antemano por leerme.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: /images/logo_con_ciencia_limpia.png
 
 #
 # Flags below are optional
