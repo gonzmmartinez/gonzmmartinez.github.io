@@ -4,12 +4,12 @@ title: Sobre mí
 permalink: /about/
 ---
 
-Some information about you!
+Tengo 26 pirulos, soy de Salta, una provincia del noroeste argentino llena de hermosos paisajes, arquitectura colonial, y gente de tez cobriza y rasgos andinos que también somos parte de la decoración, supongo.
 
-### More Information
+Soy (casi) Técnico en Estadística, con previa formación en química (amá me ekivoké de karrera), y actualmente trabajo asistiendo técnicamente con estadística aplicada a estudios sociales.
 
-A place to include any other types of information that you'd like to include about yourself.
+## ¿Un blog? ¿En pleno 2025? In this economy?
 
-### Contact me
+Sí, lamentablemente. Primero porque aguanten el long-form content, segundo porque no tengo absolutamente ninguna red social, y tercero porque sí.
 
-[email@domain.com](mailto:email@domain.com)
+Hace no mucho cursé una materia sobre epistemología en la facultad que me rompió la cabeza y siento que es mi obligación discutir(me) algunas cosas, y heme aquí.
