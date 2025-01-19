@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mí
-permalink: /about/
+permalink: /con-ciencia-critica/about/
 ---
 
 Tengo 26 pirulos, soy de Salta, una provincia del noroeste argentino llena de hermosos paisajes, arquitectura colonial, y gente de tez cobriza y rasgos andinos que también somos parte de la decoración, supongo.
