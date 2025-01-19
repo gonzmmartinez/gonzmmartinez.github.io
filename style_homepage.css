@@ -1,0 +1,141 @@
+:root {
+    --background-color: 
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Istok Web', sans-serif;
+    overflow-x: hidden;
+}
+  
+/* Barra de navegación */
+.navbar {
+    position: fixed;
+    top: 2.5%;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+}
+  
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar ul li {
+    margin: 0 15px;
+}
+  
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+  
+.navbar ul li a:hover {
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+  
+/* Botones laterales */
+.scroll-control {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+  
+.scroll-control span {
+    cursor: pointer;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 10px 0;
+    background-color: #000;
+    opacity: 0.7;
+}
+  
+.scroll-control span:hover {
+    opacity: 1;
+}
+  
+/* Secciones */
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px; /* Espacio para la barra de navegación */
+}
+  
+.s-one {
+    background-color: rgb(121, 49, 49);
+}
+  
+.s-two {
+    background-color: rgb(52, 116, 84);
+}
+  
+.s-three {
+    background-color: rgb(79, 64, 116);
+}
+  
+.s-four {
+    background-color: rgb(116, 94, 49);
+}
+  
+.s-five {
+    background-color: rgb(49, 94, 116);
+}
+  
+/* Contenido */
+.content {
+    max-width: 800px;
+    padding: 20px;
+}
+  
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+  
+.content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.content .bigText {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: start;
+}
+
+.nameText {
+    color: red
+}
+  
+/* ESTILO PARA CELULARES */
+@media all and (max-width: 1023px) {
+    .scroll-control span {
+      display: none;
+    }
+}
+  
